@@ -17,7 +17,7 @@ The script processes all PDF files in a directory and outputs the extracted meta
 3. Run the script:
 
 ```bash
-bash extract_pdf_exif.sh
+extract_pdf_exif.sh
 ```
 
 4. The script will create an `exif_output` directory (if it does not already exist). Each PDF will have a corresponding `.txt` file containing its metadata. The filename will match the pdf.
